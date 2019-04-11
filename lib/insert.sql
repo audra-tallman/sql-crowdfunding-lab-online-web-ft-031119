@@ -11,26 +11,27 @@ INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) V
 (10, "fire pit", "yard" 225, "May", "June");
 
 INSERT INTO users (id, name, age) VALUES
-(1, "Audra", 33), 
-(2, "Benjamin", 34), 
-(3, "Carol", 61), 
-(4, "Doug", 65),
-(5, "Sandy", 61),
-(6, "Gabe", 30),
-(7, "Kristen", 30),
-(8, "Tess", 27),
-(9, "Garrett", 26),
-(10, "Koann", 75),
-(11, "Harry", 61), 
-(12, "Darla", 60), 
-(13, "Alli", 31), 
-(14, "Sara", 33),
-(15, "Mollie", 38),
-(16, "Tommi", 42), 
-(17, "Nick", 35), 
-(18, "Taryn", 34), 
-(19, "Larry", 37), 
-(20, "Ondrej", 21);
+(1, 'Finnebar', 17), 
+(2, 'Bear', 6), 
+(3, 'Iguana', 4), 
+(4, 'Alex', 33), 
+(5, 'Amanda', 24), 
+(6, 'Sophie', 24), 
+(7, 'Rosey', 9), 
+(8, 'Victoria', 23), 
+(9, 'Franz', 100), 
+(10, 'Hermione', 30), 
+(11, 'Voldemort', 90), 
+(12, 'Marisa', 24), 
+(13, 'Swizzle', 4), 
+(14, 'Sirius', 36), 
+(15, 'Albus', 113), 
+(16, 'Squid', 5), 
+(17, 'Whale', 6), 
+(18, 'Pacha', 5), 
+(19, 'Ena', 24), 
+(20, 'Katie', 24);
+
 
 INSERT INTO pledges (id, amount, user_id, project_id) VALUES
 (1, 20, 1, 1),
