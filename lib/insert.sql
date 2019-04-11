@@ -10,7 +10,7 @@ INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) V
 (9, "deck", "patio", 700, "May", "August"), 
 (10, "fire pit", "yard" 225, "May", "June");
 
-INSERT INTO users VALUES
+INSERT INTO users (id, name, age) VALUES
 (1, "Audra", 33), 
 (2, "Benjamin", 34), 
 (3, "Carol", 61), 
