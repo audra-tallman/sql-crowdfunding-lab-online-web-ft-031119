@@ -1,4 +1,14 @@
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("carpet", "basement", 300, "May", "December"), ("drywall", "basement", 500, "May", "December"), ("ceiling", "basement", 450, "May", "December"), ("laundry room", "basement", 150, "May", "June"), ("counter tops", "kitchen", 600, "May", "June"),, ("cabinets", "kitchen", 350, "May", "July"), ("fire place", "family room" 200, "August", "December"), ("lighting", "patio", 100, "May", "June"), ("deck", "patio", 700, "May", "August"), ("fire pit", "yard" 225, "May", "June");
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES 
+(1, "carpet", "basement", 300, "May", "December"),
+(2, "drywall", "basement", 500, "May", "December"), 
+(3, "ceiling", "basement", 450, "May", "December"), 
+(4, "laundry room", "basement", 150, "May", "June"), 
+(5, "counter tops", "kitchen", 600, "May", "June"), 
+(6, "cabinets", "kitchen", 350, "May", "July"), 
+(7, "fire place", "family room" 200, "August", "December"), 
+(8, "lighting", "patio", 100, "May", "June"),
+(9, "deck", "patio", 700, "May", "August"), 
+(10, "fire pit", "yard" 225, "May", "June");
 
 INSERT INTO users VALUES
 ("Audra", 33), 
