@@ -1,4 +1,4 @@
-INSERT INTO projects VALUES ("carpet", "basement", 300, "May", "December"); 
+INSERT INTO projects (VALUES ("carpet", "basement", 300, "May", "December"); 
 INSERT INTO projects VALUES ("drywall", "basement", 500, "May", "December"); 
 INSERT INTO projects VALUES ("ceiling", "basement", 450, "May", "December"); 
 INSERT INTO projects VALUES ("laundry room", "basement", 150, "May", "June"); 
